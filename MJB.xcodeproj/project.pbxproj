@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D6D536895EE0940A92A522B /* libPods-MJB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CE1A17D814DC53D363F3BC /* libPods-MJB.a */; };
 		846FE59F1FA96D2500D9E6B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FE59E1FA96D2500D9E6B6 /* AppDelegate.m */; };
 		846FE5A21FA96D2500D9E6B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FE5A11FA96D2500D9E6B6 /* ViewController.m */; };
 		846FE5A51FA96D2500D9E6B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846FE5A31FA96D2500D9E6B6 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		846FE5AD1FA96D2500D9E6B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FE5AC1FA96D2500D9E6B6 /* main.m */; };
 		846FE5B71FA96D2500D9E6B6 /* MJBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FE5B61FA96D2500D9E6B6 /* MJBTests.m */; };
 		846FE5C21FA96D2500D9E6B6 /* MJBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FE5C11FA96D2500D9E6B6 /* MJBUITests.m */; };
+		846FE5D31FA96F0800D9E6B6 /* SNWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FE5D11FA96DF000D9E6B6 /* SNWebBrowserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E72255C7FF1E741AED58B14 /* Pods-MJB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJB.release.xcconfig"; path = "Pods/Target Support Files/Pods-MJB/Pods-MJB.release.xcconfig"; sourceTree = "<group>"; };
 		846FE59A1FA96D2500D9E6B6 /* MJB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846FE59D1FA96D2500D9E6B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		846FE59E1FA96D2500D9E6B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,11 @@
 		846FE5BD1FA96D2500D9E6B6 /* MJBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846FE5C11FA96D2500D9E6B6 /* MJBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJBUITests.m; sourceTree = "<group>"; };
 		846FE5C31FA96D2500D9E6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846FE5D01FA96DF000D9E6B6 /* SNWebBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNWebBrowserViewController.h; sourceTree = "<group>"; };
+		846FE5D11FA96DF000D9E6B6 /* SNWebBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNWebBrowserViewController.m; sourceTree = "<group>"; };
+		846FE5D21FA96DF000D9E6B6 /* SNWebBrowserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SNWebBrowserViewController.xib; sourceTree = "<group>"; };
+		C5D0E9B6778B1F7E583BD63D /* Pods-MJB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MJB/Pods-MJB.debug.xcconfig"; sourceTree = "<group>"; };
+		F6CE1A17D814DC53D363F3BC /* libPods-MJB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MJB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D6D536895EE0940A92A522B /* libPods-MJB.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,8 @@
 				846FE5B51FA96D2500D9E6B6 /* MJBTests */,
 				846FE5C01FA96D2500D9E6B6 /* MJBUITests */,
 				846FE59B1FA96D2500D9E6B6 /* Products */,
+				F221AD7EC60DA524B706EFD7 /* Pods */,
+				A59F0B1EDB3B425B095373C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +112,7 @@
 		846FE59C1FA96D2500D9E6B6 /* MJB */ = {
 			isa = PBXGroup;
 			children = (
+				846FE5CF1FA96DF000D9E6B6 /* WebView */,
 				846FE59D1FA96D2500D9E6B6 /* AppDelegate.h */,
 				846FE59E1FA96D2500D9E6B6 /* AppDelegate.m */,
 				846FE5A01FA96D2500D9E6B6 /* ViewController.h */,
@@ -132,6 +144,33 @@
 			path = MJBUITests;
 			sourceTree = "<group>";
 		};
+		846FE5CF1FA96DF000D9E6B6 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				846FE5D01FA96DF000D9E6B6 /* SNWebBrowserViewController.h */,
+				846FE5D11FA96DF000D9E6B6 /* SNWebBrowserViewController.m */,
+				846FE5D21FA96DF000D9E6B6 /* SNWebBrowserViewController.xib */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		A59F0B1EDB3B425B095373C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6CE1A17D814DC53D363F3BC /* libPods-MJB.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F221AD7EC60DA524B706EFD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5D0E9B6778B1F7E583BD63D /* Pods-MJB.debug.xcconfig */,
+				7E72255C7FF1E741AED58B14 /* Pods-MJB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 846FE5C61FA96D2500D9E6B6 /* Build configuration list for PBXNativeTarget "MJB" */;
 			buildPhases = (
+				19777362AEF55AE244B38CCF /* [CP] Check Pods Manifest.lock */,
 				846FE5961FA96D2500D9E6B6 /* Sources */,
 				846FE5971FA96D2500D9E6B6 /* Frameworks */,
 				846FE5981FA96D2500D9E6B6 /* Resources */,
+				D0621C7D0A2A41FB677BCBEC /* [CP] Embed Pods Frameworks */,
+				5655DFE573FBA9B668CB23A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,11 +302,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19777362AEF55AE244B38CCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MJB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5655DFE573FBA9B668CB23A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MJB/Pods-MJB-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJB/Pods-MJB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0621C7D0A2A41FB677BCBEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJB/Pods-MJB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		846FE5961FA96D2500D9E6B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846FE5D31FA96F0800D9E6B6 /* SNWebBrowserViewController.m in Sources */,
 				846FE5A21FA96D2500D9E6B6 /* ViewController.m in Sources */,
 				846FE5AD1FA96D2500D9E6B6 /* main.m in Sources */,
 				846FE59F1FA96D2500D9E6B6 /* AppDelegate.m in Sources */,
@@ -428,6 +525,7 @@
 		};
 		846FE5C71FA96D2500D9E6B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D0E9B6778B1F7E583BD63D /* Pods-MJB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +540,7 @@
 		};
 		846FE5C81FA96D2500D9E6B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E72255C7FF1E741AED58B14 /* Pods-MJB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

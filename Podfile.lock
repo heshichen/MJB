@@ -1,0 +1,18 @@
+PODS:
+  - AVOSCloud (7.3.2)
+  - JCore (1.1.6)
+  - JPush (3.0.7):
+    - JCore (~> 1.1.6)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - JPush (~> 3.0.6)
+
+SPEC CHECKSUMS:
+  AVOSCloud: 8a18125408bac1fc73c19ceb897db4ec4e0e6044
+  JCore: 18fc8725124f26e55625eaf224659b3a999dcf63
+  JPush: 111b79b8a0169ab8fd4c486dac3ed166ed69293e
+
+PODFILE CHECKSUM: 921abb9e0c03988d9709af7a3fdab61512e722ad
+
+COCOAPODS: 1.4.0.beta.2
