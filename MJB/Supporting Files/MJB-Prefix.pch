@@ -1,0 +1,45 @@
+//
+//  MJB-Prefix.pch
+//  MJB
+//
+//  Created by admin on 2017/11/1.
+//  Copyright © 2017年 admin. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "CONSTS.h"
+#endif
+
+#define IS_OPEN_PUSH             ![[NSUserDefaults standardUserDefaults] boolForKey:@"is_open_push"]  // 是否开启本地推送
+
+#define  MJBCoror(a,b,c) [UIColor colorWithRed:(a)/255.0 green:(b)/255.0 blue:(c)/255.0 alpha:1]
+
+//屏幕宽度
+#define MJBScreenWidth  [UIScreen mainScreen].bounds.size.width
+//屏幕长度
+#define MJBScreenHeight [UIScreen mainScreen].bounds.size.height
+//极光推送
+#define JPUSH_KEY @"07e9da2000fcfd73a1ef3678"
+//LeanCloud 后台
+#define LC_APP_KEY @"JtatQEpJWyvsl2BLeR0S8Neg-gzGzoHsz"
+#define LC_CLIENT_KEY @"q6T27fJj9Rv0ryeOMCBdS3Ww"
+
+#ifdef DEBUG
+#define MJBLog(formatString, ...) NSLog(formatString, ##__VA_ARGS__)
+#define MJBTest(a) NSLog(@"测试——————%d",(a))
+#else
+#define MJBLog(formatString, ...)
+#define MJBTest(a)
+#endif
+
+
+
+

@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  MJB
+
+  Created by admin on 2017/11/1.
+  Copyright © 2017年 admin. All rights reserved.
+*/
+
+/**
+ * Nav
+ */
+"back" = "back";
+"commit" = "commit";
+
+/**
+ * MJBFeedBackViewController
+ */
+"feedbackTitle" = "Feedback";
+"oj1-eV-OvB" = "You can also inform us by the following way:";
+"SXZ-72-c8m" = "mail";

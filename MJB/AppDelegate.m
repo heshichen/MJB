@@ -18,11 +18,7 @@
 
 #define IS_OPEN_PUSH             ![[NSUserDefaults standardUserDefaults] boolForKey:@"is_open_push"]  // 是否开启本地推送
 
-//极光推送
-#define JPUSH_KEY @"07e9da2000fcfd73a1ef3678"
-//LeanCloud 后台
-#define LC_APP_KEY @"wCXJ2PbVk4rtwjiAWRz1ezpz-gzGzoHsz"
-#define LC_CLIENT_KEY @"IeofW8sG2C4QYfXhcge0HgxJ-gzGzoHsz"
+
 
 @interface AppDelegate ()<UNUserNotificationCenterDelegate,JPUSHRegisterDelegate>
 

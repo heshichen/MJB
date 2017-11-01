@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  MJB
+
+  Created by admin on 2017/11/1.
+  Copyright © 2017年 admin. All rights reserved.
+*/
+
+/**
+ * Nav
+ */
+"cancel" = "取消";
+"commit" = "提交";
+
+/**
+ * MJBFeedBackViewController
+ */
+"feedbackTitle" = "意见反馈";
+"oj1-eV-OvB" = "您也可以通过以下方式反馈通知我们：";
+"SXZ-72-c8m" = "邮箱";

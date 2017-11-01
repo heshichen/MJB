@@ -17,6 +17,11 @@
 		846FE5B71FA96D2500D9E6B6 /* MJBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FE5B61FA96D2500D9E6B6 /* MJBTests.m */; };
 		846FE5C21FA96D2500D9E6B6 /* MJBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FE5C11FA96D2500D9E6B6 /* MJBUITests.m */; };
 		846FE5D31FA96F0800D9E6B6 /* SNWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FE5D11FA96DF000D9E6B6 /* SNWebBrowserViewController.m */; };
+		846FE5D81FA9748300D9E6B6 /* MJBFeedBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FE5D61FA9748300D9E6B6 /* MJBFeedBackViewController.m */; };
+		846FE5DF1FA9A05500D9E6B6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 846FE5DE1FA9A05500D9E6B6 /* Info.plist */; };
+		846FE5E31FA9AEDF00D9E6B6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 846FE5E51FA9AEDF00D9E6B6 /* InfoPlist.strings */; };
+		846FE5F61FA9B74000D9E6B6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 846FE5F81FA9B74000D9E6B6 /* Localizable.strings */; };
+		846FE60A1FA9BB6C00D9E6B6 /* MJBFeedBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 846FE6091FA9BB6C00D9E6B6 /* MJBFeedBackViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +51,6 @@
 		846FE5A41FA96D2500D9E6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		846FE5A61FA96D2500D9E6B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846FE5A91FA96D2500D9E6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		846FE5AB1FA96D2500D9E6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		846FE5AC1FA96D2500D9E6B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		846FE5B21FA96D2500D9E6B6 /* MJBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		846FE5B61FA96D2500D9E6B6 /* MJBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJBTests.m; sourceTree = "<group>"; };
@@ -57,6 +61,16 @@
 		846FE5D01FA96DF000D9E6B6 /* SNWebBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNWebBrowserViewController.h; sourceTree = "<group>"; };
 		846FE5D11FA96DF000D9E6B6 /* SNWebBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNWebBrowserViewController.m; sourceTree = "<group>"; };
 		846FE5D21FA96DF000D9E6B6 /* SNWebBrowserViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SNWebBrowserViewController.xib; sourceTree = "<group>"; };
+		846FE5D51FA9748300D9E6B6 /* MJBFeedBackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJBFeedBackViewController.h; sourceTree = "<group>"; };
+		846FE5D61FA9748300D9E6B6 /* MJBFeedBackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJBFeedBackViewController.m; sourceTree = "<group>"; };
+		846FE5DB1FA99ED800D9E6B6 /* MJB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MJB-Prefix.pch"; sourceTree = "<group>"; };
+		846FE5DD1FA99FFB00D9E6B6 /* CONSTS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CONSTS.h; sourceTree = "<group>"; };
+		846FE5DE1FA9A05500D9E6B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846FE5E41FA9AEDF00D9E6B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		846FE5E61FA9AEF600D9E6B6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		846FE5F71FA9B74000D9E6B6 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		846FE5F91FA9B74300D9E6B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		846FE6091FA9BB6C00D9E6B6 /* MJBFeedBackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MJBFeedBackViewController.xib; sourceTree = "<group>"; };
 		C5D0E9B6778B1F7E583BD63D /* Pods-MJB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MJB/Pods-MJB.debug.xcconfig"; sourceTree = "<group>"; };
 		F6CE1A17D814DC53D363F3BC /* libPods-MJB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MJB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -112,6 +126,8 @@
 		846FE59C1FA96D2500D9E6B6 /* MJB */ = {
 			isa = PBXGroup;
 			children = (
+				846FE5DC1FA99FD800D9E6B6 /* Common */,
+				846FE5D41FA9740C00D9E6B6 /* FeedBack */,
 				846FE5CF1FA96DF000D9E6B6 /* WebView */,
 				846FE59D1FA96D2500D9E6B6 /* AppDelegate.h */,
 				846FE59E1FA96D2500D9E6B6 /* AppDelegate.m */,
@@ -120,8 +136,7 @@
 				846FE5A31FA96D2500D9E6B6 /* Main.storyboard */,
 				846FE5A61FA96D2500D9E6B6 /* Assets.xcassets */,
 				846FE5A81FA96D2500D9E6B6 /* LaunchScreen.storyboard */,
-				846FE5AB1FA96D2500D9E6B6 /* Info.plist */,
-				846FE5AC1FA96D2500D9E6B6 /* main.m */,
+				846FE5DA1FA99E8600D9E6B6 /* Supporting Files */,
 			);
 			path = MJB;
 			sourceTree = "<group>";
@@ -152,6 +167,36 @@
 				846FE5D21FA96DF000D9E6B6 /* SNWebBrowserViewController.xib */,
 			);
 			path = WebView;
+			sourceTree = "<group>";
+		};
+		846FE5D41FA9740C00D9E6B6 /* FeedBack */ = {
+			isa = PBXGroup;
+			children = (
+				846FE5D51FA9748300D9E6B6 /* MJBFeedBackViewController.h */,
+				846FE5D61FA9748300D9E6B6 /* MJBFeedBackViewController.m */,
+				846FE6091FA9BB6C00D9E6B6 /* MJBFeedBackViewController.xib */,
+			);
+			path = FeedBack;
+			sourceTree = "<group>";
+		};
+		846FE5DA1FA99E8600D9E6B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				846FE5DE1FA9A05500D9E6B6 /* Info.plist */,
+				846FE5AC1FA96D2500D9E6B6 /* main.m */,
+				846FE5DB1FA99ED800D9E6B6 /* MJB-Prefix.pch */,
+				846FE5E51FA9AEDF00D9E6B6 /* InfoPlist.strings */,
+				846FE5F81FA9B74000D9E6B6 /* Localizable.strings */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		846FE5DC1FA99FD800D9E6B6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				846FE5DD1FA99FFB00D9E6B6 /* CONSTS.h */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		A59F0B1EDB3B425B095373C4 /* Frameworks */ = {
@@ -262,6 +307,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 846FE5911FA96D2500D9E6B6;
 			productRefGroup = 846FE59B1FA96D2500D9E6B6 /* Products */;
@@ -281,8 +327,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				846FE5AA1FA96D2500D9E6B6 /* LaunchScreen.storyboard in Resources */,
+				846FE5E31FA9AEDF00D9E6B6 /* InfoPlist.strings in Resources */,
 				846FE5A71FA96D2500D9E6B6 /* Assets.xcassets in Resources */,
+				846FE5F61FA9B74000D9E6B6 /* Localizable.strings in Resources */,
 				846FE5A51FA96D2500D9E6B6 /* Main.storyboard in Resources */,
+				846FE60A1FA9BB6C00D9E6B6 /* MJBFeedBackViewController.xib in Resources */,
+				846FE5DF1FA9A05500D9E6B6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +413,7 @@
 			files = (
 				846FE5D31FA96F0800D9E6B6 /* SNWebBrowserViewController.m in Sources */,
 				846FE5A21FA96D2500D9E6B6 /* ViewController.m in Sources */,
+				846FE5D81FA9748300D9E6B6 /* MJBFeedBackViewController.m in Sources */,
 				846FE5AD1FA96D2500D9E6B6 /* main.m in Sources */,
 				846FE59F1FA96D2500D9E6B6 /* AppDelegate.m in Sources */,
 			);
@@ -416,6 +467,24 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		846FE5E51FA9AEDF00D9E6B6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846FE5E41FA9AEDF00D9E6B6 /* en */,
+				846FE5E61FA9AEF600D9E6B6 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		846FE5F81FA9B74000D9E6B6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846FE5F71FA9B74000D9E6B6 /* zh-Hans */,
+				846FE5F91FA9B74300D9E6B6 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -423,6 +492,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -467,7 +537,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -478,6 +548,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -516,7 +587,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -530,7 +601,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y72T86887D;
-				INFOPLIST_FILE = MJB/Info.plist;
+				GCC_PREFIX_HEADER = "/Users/admin/Documents/github/MJB/MJB/Supporting Files/MJB-Prefix.pch";
+				INFOPLIST_FILE = "MJB/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.heshichen.MJB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -545,7 +618,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y72T86887D;
-				INFOPLIST_FILE = MJB/Info.plist;
+				GCC_PREFIX_HEADER = "/Users/admin/Documents/github/MJB/MJB/Supporting Files/MJB-Prefix.pch";
+				INFOPLIST_FILE = "MJB/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.heshichen.MJB;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -3,16 +3,19 @@ PODS:
   - JCore (1.1.6)
   - JPush (3.0.7):
     - JCore (~> 1.1.6)
+  - MBProgressHUD (1.0.0)
 
 DEPENDENCIES:
   - AVOSCloud
   - JPush (~> 3.0.6)
+  - MBProgressHUD
 
 SPEC CHECKSUMS:
   AVOSCloud: 8a18125408bac1fc73c19ceb897db4ec4e0e6044
   JCore: 18fc8725124f26e55625eaf224659b3a999dcf63
   JPush: 111b79b8a0169ab8fd4c486dac3ed166ed69293e
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
 
-PODFILE CHECKSUM: 921abb9e0c03988d9709af7a3fdab61512e722ad
+PODFILE CHECKSUM: 2c156f426e01dc584bc4b713c0a3f6c883c3a889
 
 COCOAPODS: 1.4.0.beta.2
