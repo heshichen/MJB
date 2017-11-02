@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D6D536895EE0940A92A522B /* libPods-MJB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CE1A17D814DC53D363F3BC /* libPods-MJB.a */; };
+		8447A81B1FAAAF8B0016C3A4 /* MJBAboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447A81A1FAAAF8B0016C3A4 /* MJBAboutUsViewController.m */; };
 		846FE59F1FA96D2500D9E6B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FE59E1FA96D2500D9E6B6 /* AppDelegate.m */; };
 		846FE5A21FA96D2500D9E6B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846FE5A11FA96D2500D9E6B6 /* ViewController.m */; };
 		846FE5A51FA96D2500D9E6B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846FE5A31FA96D2500D9E6B6 /* Main.storyboard */; };
@@ -43,6 +44,8 @@
 
 /* Begin PBXFileReference section */
 		7E72255C7FF1E741AED58B14 /* Pods-MJB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJB.release.xcconfig"; path = "Pods/Target Support Files/Pods-MJB/Pods-MJB.release.xcconfig"; sourceTree = "<group>"; };
+		8447A8191FAAAF8B0016C3A4 /* MJBAboutUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJBAboutUsViewController.h; sourceTree = "<group>"; };
+		8447A81A1FAAAF8B0016C3A4 /* MJBAboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJBAboutUsViewController.m; sourceTree = "<group>"; };
 		846FE59A1FA96D2500D9E6B6 /* MJB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846FE59D1FA96D2500D9E6B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		846FE59E1FA96D2500D9E6B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8447A8181FAAAF520016C3A4 /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				8447A8191FAAAF8B0016C3A4 /* MJBAboutUsViewController.h */,
+				8447A81A1FAAAF8B0016C3A4 /* MJBAboutUsViewController.m */,
+			);
+			path = AboutUs;
+			sourceTree = "<group>";
+		};
 		846FE5911FA96D2500D9E6B6 = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +138,7 @@
 		846FE59C1FA96D2500D9E6B6 /* MJB */ = {
 			isa = PBXGroup;
 			children = (
+				8447A8181FAAAF520016C3A4 /* AboutUs */,
 				846FE5DC1FA99FD800D9E6B6 /* Common */,
 				846FE5D41FA9740C00D9E6B6 /* FeedBack */,
 				846FE5CF1FA96DF000D9E6B6 /* WebView */,
@@ -413,6 +426,7 @@
 			files = (
 				846FE5D31FA96F0800D9E6B6 /* SNWebBrowserViewController.m in Sources */,
 				846FE5A21FA96D2500D9E6B6 /* ViewController.m in Sources */,
+				8447A81B1FAAAF8B0016C3A4 /* MJBAboutUsViewController.m in Sources */,
 				846FE5D81FA9748300D9E6B6 /* MJBFeedBackViewController.m in Sources */,
 				846FE5AD1FA96D2500D9E6B6 /* main.m in Sources */,
 				846FE59F1FA96D2500D9E6B6 /* AppDelegate.m in Sources */,

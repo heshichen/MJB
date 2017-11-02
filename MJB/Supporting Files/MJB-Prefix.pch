@@ -31,6 +31,8 @@
 //LeanCloud 后台
 #define LC_APP_KEY @"JtatQEpJWyvsl2BLeR0S8Neg-gzGzoHsz"
 #define LC_CLIENT_KEY @"q6T27fJj9Rv0ryeOMCBdS3Ww"
+//适配iPhone X 高度
+#define TCAddHeight ([UIScreen mainScreen].bounds.size.height == 812 ? 23 : 0)
 
 #ifdef DEBUG
 #define MJBLog(formatString, ...) NSLog(formatString, ##__VA_ARGS__)

@@ -8,11 +8,14 @@
 
 #import "ViewController.h"
 #import "MJBFeedBackViewController.h"
+#import "MJBAboutUsViewController.h"
 
 @interface ViewController ()
 
 //测试意见反馈功能
 - (IBAction)testFeedbackSender:(id)sender;
+//测试关于我们页面显示
+- (IBAction)abuotUsSender:(id)sender;
 
 @end
 
@@ -33,9 +36,13 @@
 - (IBAction)testFeedbackSender:(id)sender {
     MJBFeedBackViewController *vc = [[MJBFeedBackViewController alloc]init];
     vc.mail = @"793308186@qq.com";
-    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:vc];
-    nav.navigationBar.translucent = NO;
-    [self presentViewController:nav animated:YES completion:nil];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+//测试关于我们页面显示
+- (IBAction)abuotUsSender:(id)sender {
+    MJBAboutUsViewController *vc = [[MJBAboutUsViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
